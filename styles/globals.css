@@ -1,3 +1,95 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+@font-face {
+    font-family: myFirstFont;
+    src: url("../public/Azeroyhd-Regular.otf");
+  }
+div{
+    color: red;
+}
+
+body{
+    cursor: url('https://media.tenor.com/z4Q0LwGOU30AAAAi/azeroy-yabujin.gif');
+
+}
+
+/* p{
+    font-family: 'Times New Roman', Times, serif;
+} */
+p,div{
+font-family:myfirstFont ;
+}
+.sidebar{
+    background-color: black;
+    background: linear-gradient(270deg, rgba(255,0,0,1) 0%, rgba(0,212,255,0) 18%);
+   
+padding:0;
+   z-index: 0;
+    
+}
+.sidebar-content{
+    z-index: 1;
+
+}
+.sidebar2{
+    position:absolute;
+z-index: 2;
+ width:16em;
+    height:100%;
+    margin:0;
+    padding:0;
+height:100%;
+    background: linear-gradient(90deg, rgba(255,0,0,1) 0%, rgba(0,212,255,0) 18%);
+    pointer-events: none;
+}
+.sidebar3{
+    position:absolute;
+z-index: 2;
+ width:16em;
+    height:100%;
+    margin:0;
+    padding:0;
+height:100%;
+    background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,212,255,0) 5%);
+    pointer-events: none;
+
+    }
+    .sidebar4{
+        position:absolute;
+        z-index: 2;
+         width:16em;
+            height:100%;
+            margin:0;
+            padding:0;
+        height:100%;
+            background: linear-gradient(180deg, rgba(255,0,0,1) 0%, rgba(0,212,255,0) 5%);
+            pointer-events: none;
+
+        }
+.tweet{
+    background-color: black;
+}
+.tweet-box{
+    background-color: black;
+}
+input{
+    background-color: black;
+}
+.random-box{
+    background-color: black;
+}
+body{
+    background-color: black;
+}
+
+.post-banner{
+    /* border:red solid 1px; */
+    /* padding:0;
+    margin:0;
+    height:38px;
+    width:100%;
+    background-image: url("https://i4.glitter-graphics.org/pub/1247/1247634ugjywbxzzj.gif");
+    background-size: 30%; */
+   
+}

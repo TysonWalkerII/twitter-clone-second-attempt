@@ -67,9 +67,9 @@ function TweetBox({ setTweets }: Props) {
   };
 
   return (
-    <div className="flex space-x-2 p-5">
+    <div className="flex space-x-2 p-5 tweet-box">
       <img
-        src={session?.user?.image || "https://links.papareact.com/gll"}
+        src={session?.user?.image || "https://i.makeagif.com/media/4-01-2023/tGwcnmx.jpg"}
         alt=""
         className="h-14 w-14 object-cover rounded-full mt-4"
       />

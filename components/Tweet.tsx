@@ -65,8 +65,9 @@ function Tweet({ tweet }: Props) {
   return (
     <div
       key={tweet._id}
-      className="flex flex-col space-x-3 border-y border-gray-100 p-5"
+      className="flex flex-col space-x-3 border-y border-red-900 p-5 tweet"
     >
+      <div className="post-banner"></div>
       <div className="flex space-x-3">
         <img
           className="h-10 w-10 rounded-full object-cover"
@@ -92,7 +93,7 @@ function Tweet({ tweet }: Props) {
             {tweet.image && (
               <img
                 src={tweet.image}
-                className="m-5 ml-0 mb-1 max-h-60  rounded-lg object-cover shadow-sm"
+                className="m-5 ml-0 mb-1 max-h-60  object-cover shadow-sm"
                 alt=""
               />
             )}
