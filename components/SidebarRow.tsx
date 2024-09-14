@@ -16,7 +16,7 @@ function SidebarRow({ Icon, title, pic, onClick }: Props) {
       {/* <Icon className="h-6 w-6" /> */}
       
       <img src={pic} className="h-12"></img>
-      <p className="">
+      <p className="md:flex sidebartextomg">
         {title}
       </p>
     </div>
