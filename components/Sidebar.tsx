@@ -15,7 +15,7 @@ import { signIn, signOut, useSession } from "next-auth/react";
 function Sidebar() {
   const { data: session } = useSession();
   return (
-    <div className="flex flex-col col-span-2 items-center px-4 md:items-start max-h-screen sidebar overflow-scroll ">
+    <div className="flex flex-col col-span-2 items-center px-4 md:items-start max-h-screen sidebar overflow-scroll">
       <div className="sidebar2">some test</div>
       <div className="sidebar4 md:flex">gfd</div>
       <img className="h-100" src="https://media.tenor.com/2Esjx1thErUAAAAi/doves-gold-glitter.gif" alt="" />
